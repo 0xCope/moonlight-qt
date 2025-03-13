@@ -1,3 +1,17 @@
+# LOCAL BUILD
+
+open vs 2022
+set PATH=%PATH%;C:\Program Files\7-Zip
+"C:\Qt\6.8.2\msvc2022_64\bin\qtenv2.bat"
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvars64.bat"
+cd C:\Users\radus\Desktop\Projects\Programs\moonlight-qt
+scripts\build-arch.bat release
+
+.exe in C:\Users\radus\Desktop\Projects\Programs\moonlight-qt\build\installer-x64-release\MoonlightPortable-x64-6.1.0.zip
+
+
+
+
 # Moonlight PC
 
 [Moonlight PC](https://moonlight-stream.org) is an open source PC client for NVIDIA GameStream and [Sunshine](https://github.com/LizardByte/Sunshine).
